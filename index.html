@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <title>YOU DON'T KNOW BUT I KNOW</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a00ff, #ff00c8, #00fff0);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+
+        }
+
+
+        .chat-container {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+      border-radius: 40px 80px 40px 20px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 25px rgba(255, 0, 255, 0.3), 0 0 40px rgba(0, 255, 255, 0.2);
+      padding: 40px 40px 50px;
+      width: 90%;
+      max-width: 700px;
+      animation: fadeIn 1.5s ease;
+      position: relative;
+    }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>YOU DON'T KNOW BUT I KNOW</h2>
+        <div class="font-group">
+            <input type="text" class="form-control" id="userInput" placeholder="What's on your mind?"/>
+        </div>
+        <button class="btn btn-custom" onclick="sendMesage()">Go Ahead!!</button>
+        <div id="response"></div>
+    </div>
+
+
+    
+</body>
+</html>
+
+
+
+
