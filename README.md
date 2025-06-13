@@ -32,5 +32,5 @@ Welcome to **DeepSeek Bot** – an interactive AI chatbot powered by the [OpenRo
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/deepseek-bot.git
+git clone https://github.com/siwanthaka/deepseek-bot.git
 cd deepseek-bot
